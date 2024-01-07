@@ -1,0 +1,24 @@
+.navbar{
+    background: var(--primary-color)!important;
+}
+.navbar-brand{
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+.navbar-toggler{
+    margin-right: 0.7rem;
+}
+.nav-item.active .nav-link {
+    color: #ffe6b7;
+    border-bottom: 1px solid #ffe9c0;
+  }
+.nav-item{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.navbar-toggler{
+    font-size: 1rem;
+}
+.nav-link, .navbar-brand{
+    color: white;
+}

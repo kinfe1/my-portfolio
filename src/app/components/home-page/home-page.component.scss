@@ -1,0 +1,60 @@
+.banner{
+    overflow: hidden;
+    position: relative;
+    min-height: 450px;
+    background: rgb(255, 255, 255);
+}
+.image-bg{
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+.navbar-toggler{
+    color: white;
+}
+.downloadBtn{
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 1rem;
+    width: fit-content;
+    padding: .4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.downloadBtn:hover{
+    color: white;
+    background-color: var(--primary-color);
+}
+.personalIMg{
+    width: 350px;
+}
+.zindex-1{
+    z-index: 1;
+}
+.social{
+    background: black;
+    color: #8eec8e;
+}
+@media only screen and (max-width: 780px) {
+.headerContent{
+    padding: 3rem;
+    }
+    .hello{
+    font-size: 1rem;
+    }
+    .intr{
+    font-size: 1.5rem;
+    margin-top: .3rem !important;
+    }
+    .intdesc{
+    font-size: .7rem;
+    margin-bottom: 0;
+    }
+}
+
