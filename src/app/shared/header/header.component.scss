@@ -1,12 +1,17 @@
 .navbar{
     background: var(--primary-color)!important;
 }
+.menuIcon{
+    font-size: 1.8rem;
+    color: white;
+}
 .navbar-brand{
     margin-left: 3rem;
     margin-right: 1rem;
 }
 .navbar-toggler{
     margin-right: 0.7rem;
+    border-color: white;
 }
 .nav-item.active .nav-link {
     color: #ffe6b7;
@@ -22,8 +27,16 @@
 .nav-link, .navbar-brand{
     color: white;
 }
-.contactNav{
-    margin-right: 3rem;
-    border: 1px solid wheat;
-    border-radius: 0.6rem;
+
+@media only screen and (max-width: 780px) {
+    .navbar-brand{
+        margin-left: 2rem;
+    }
+}
+@media only screen and (min-width: 780px) {
+    .contactNav{
+        margin-right: 3rem;
+        border: 1px solid wheat;
+        border-radius: 0.6rem;
+    }
 }

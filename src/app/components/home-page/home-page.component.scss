@@ -3,6 +3,8 @@
     position: relative;
     min-height: 450px;
     background: rgb(255, 255, 255);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 .image-bg{
     opacity: 0.1;
@@ -49,12 +51,80 @@
     font-size: 1rem;
     }
     .intr{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-top: .3rem !important;
     }
     .intdesc{
-    font-size: .7rem;
+    font-size: .75rem;
     margin-bottom: 0;
     }
+    .banner{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+    .personalIMg{
+        width: 310px;
+    }
+    .logos {
+        .bi{
+            padding: .52rem !important;
+        }
+    }
+
+   
 }
 
+
+.container {
+    overflow: hidden;
+    .slider {
+      animation: slidein 30s linear infinite;
+      white-space: nowrap;
+      .logos {
+        width: 100%;
+        display: inline-block;
+        margin: 0px 0;
+        .bi {
+          display: inline-block;
+          width: calc(100% / 6);
+          font-size: 6rem;
+          animation: fade-in 0.5s 
+            cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+            padding: 3.3rem;
+        }
+
+      }
+    }
+  }
+  
+  @keyframes slidein {
+    from {
+      transform: translate3d(0, 0, 0);
+    }
+    to {
+      transform: translate3d(-100%, 0, 0);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .card-body{
+    padding-left: 2rem;
+  }
+  .specialityCard{
+    box-shadow: 0 4px 8px rgb(62 209 56 / 33%)
+  }
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Adjust the scale factor as desired */
+  }
